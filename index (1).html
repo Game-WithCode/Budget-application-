@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Application</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <h1 class='text-white text-bold center fontStyle Margin-Bottom'>Your balance</h1>
+   <h2 class='text-white text-bold center fontStyle Margin-Bottom'><span id="Balance-Mark">6000</span></h2>
+   <!-- Income Container -->
+   <div class="Income-Container container-inline center">
+     <!-- Header -->
+     <span class="Income-header text-white text-bold fontStyle">Income</span>
+     <!--Body-->
+     <span class="Income-Container2"></span>
+     <!-- <div class="Income-Bar">
+       <span class="Income-Bar-Description">Income</span>
+       <span class="Income-Bar-rupees">+30000</span>
+       </div> -->
+     </div>
+     <!-- Expense container -->
+   <div class="Expense-Container container-inline center">
+     <span class="Expense-header text-white text-bold fontStyle">Expenditure</span>
+     <!--Body-->
+     <span class="Expense-Container2"></span>
+   <!--   <div class="Expense-Bar">
+   <span class="Expense-Bar-Description">Expense</span>
+   <span class="Expense-Bar-rupees">-30000</span>
+   </div> -->
+   </div> 
+   <!--Footer-->
+   <footer class="Footer-container">
+     <div class="input-container">
+    <input type="text" placeholder="Enter description" id="Description">
+    <input type="number" placeholder="Enter Amount" id="Amount">
+    </div>
+    <div class="btn-container">
+    <button id="Income-btn">Income</button>
+    <button id="Expense-btn">Expense</button>
+    </div>
+   </footer>
+</body>
+<script src="main.js">
+</script>
+</html>

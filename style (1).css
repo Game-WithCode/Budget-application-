@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@200&family=Roboto+Condensed&family=Yeseva+One&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+  }
+ 
+body{
+  background: black;
+}
+/* #Balance-Mark{
+  border-bottom: 2px solid green;
+} */
+.Margin-Bottom{
+  margin-bottom: 6px;
+}
+.fontStyle{
+  font-family: 'Roboto Condensed';
+}
+.center{
+  text-align: center;
+}
+.text-white{
+  color:white;
+}
+.text-bold{
+  font-weight: bold;
+}
+.container-inline{
+  display: inline-block;
+}
+.Income-Container{
+  width: 48vw;
+  height: 44vh;
+  overflow: scroll;
+}
+.Expense-Container {
+  width: 50vw;
+height: 44vh;
+  overflow: scroll;
+}
+
+.Income-header{
+  color: limegreen;
+}
+.Expense-header{
+  color: red;
+}
+.Income-Bar{
+  background: white;
+  border-radius: 3px;
+  border-right: 3px solid limegreen;
+  color: black;
+  height:25px;
+  text-align: center;
+  text-align: start;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  font-family: 'Oswald', cursive;
+}
+.Expense-Bar{
+  background: white;
+  border-radius: 3px;
+  border-right: 3px solid red;
+  color: black;
+  height:25px;
+  text-align: center;
+  text-align: start;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  font-family: 'Oswald', cursive;
+}
+input{
+  display: inline-block;
+  background-color: white;
+  outline: none;
+  border: none;
+  width: 29.5vw;
+  height: 35px;
+  border-radius:3px;
+  font-family: 'Roboto Condensed';
+  padding-left: 2px;
+  padding-right: 2px;
+}
+button{
+  width: 30vw;
+   height: 35px;
+   border: none;
+   border-radius:3px;
+   font-family: 'Roboto Condensed';
+   font-size: 20px;
+   font-weight: bold;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top:3px;
+}
+#Income-btn{
+  background-color: limegreen;
+  color: white;
+  margin-right:3px;
+}
+#Expense-btn {
+  background-color: red;
+  color: white;
+}
+#Description{
+  margin-right: 3px;
+}
